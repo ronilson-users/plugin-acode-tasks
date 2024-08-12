@@ -1,0 +1,143 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+#quicktools-toggler {
+ border-radius: 25%;
+}
+
+.mainDiv {
+ /* display: flex; */
+ /* justify-content: center; */
+ align-items: center;
+ margin: 5px;
+
+}
+
+.tabsElement {
+ display: flex;
+ align-content: center;
+}
+
+.tasksTab,
+.activeTab {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 5px;
+ width: 50%;
+ height: 35px;
+ align-items: center;
+ box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.taskDiv {
+ padding: 10px;
+ align-items: center;
+ justify-content: center;
+}
+
+
+.toolBar,
+.form-search,
+.form-control {
+ display: flex;
+ align-items: center;
+ border: 1px solid #ccc;
+ box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+ border-radius: 5px;
+ justify-content: space-between;
+ padding: 5px;
+ margin-top: 5px;
+}
+
+input,
+button {
+ outline: none;
+ border: none;
+}
+
+.btn-add:active,
+.btn-edit:active,
+.btn-delete:active,
+.btn-search:active{
+ background-color: lightslategray;
+ color: aliceblue;
+}
+
+input:focus {
+ outline: none;
+ border: none;
+ background-color: azure;
+ color: #010101;
+}
+
+.input-edit,
+.input-task,
+.input-search {
+ background-color: rgba(255, 255, 255, 0.1);
+ color: white;
+ padding: 10px;
+ border-radius: 3px;
+ height: 35px;
+ width: calc(100% - 20px);
+ box-sizing: border-box;
+}
+
+/* Estilização dos botões */
+.btn-add,
+.btn-edit,
+.btn-delete,
+.btn-search {
+ background-color: rgba(255, 255, 255, 0.1);
+
+ color: white;
+ border-radius: 5px;
+ cursor: pointer;
+ padding: 10px;
+ margin-left: 5px;
+}
+
+/* Efeito hover nos botões */
+.btn-add:hover,
+.btn-edit:hover,
+.btn-delete:hover,
+.btn-search:hover {
+ background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+/* Lista de tarefas */
+.task-list {
+ margin-top: 20px;
+}
+
+/* Estilização dos itens de tarefa */
+.task-item {
+ display: flex;
+ justify-content: space-between;
+ background-color: rgba(255, 255, 255, 0.3);
+
+ color: white;
+ padding: 10px;
+ border-radius: 5px;
+ margin-bottom: 10px;
+}
+
+.hidden {
+ display: block;
+}
+
+.task-description {
+ border: none;
+ width: calc(100% - 15px);
+ height: 60px;
+ padding: 10px;
+ color: #24242424;
+ margin: 5px;
+} 
+input[type="checkbox"] {
+      margin-right: 10px;
+}

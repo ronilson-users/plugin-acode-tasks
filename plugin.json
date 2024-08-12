@@ -1,0 +1,16 @@
+{
+  "id": "plugin.acode.tasks",
+  "name": "Acode Tasks",
+  "main": "dist/main.js",
+  "version": "1.0.0",
+  "readme": "readme.md",
+  "icon": "icon.png",
+  "files": [],
+  "minVersionCode" : 290,
+  "price": 0,
+  "author": {
+    "name": "rsjRoni",
+    "email": "ronilson.stos@gmail.com",
+    "github": ""
+  }
+}

@@ -1,0 +1,227 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+#quicktools-toggler {
+border-radius: 25%;
+}
+
+.mainDiv {
+/* display: flex; */
+/* justify-content: center; */
+align-items: center;
+margin: 5px;
+
+}
+
+.tabsElement {
+display: flex;
+align-content: center;
+}
+
+.todoTab,
+.completedTab,
+.progressTab {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px;
+width: 50%;
+height: 35px;
+align-items: center;
+box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.todo-list {
+margin: 20px;
+max-width: calc(100% - 20px);
+}
+
+.task {
+margin-bottom: 20px;
+}
+
+.subtasks {
+list-style-type: none;
+padding-left: 20px;
+}
+
+.btn {
+margin-left: 5px;
+}
+
+.completed {
+text-decoration: line-through;
+}
+
+.progress {
+height: 10px;
+background-color: #e0e0e0;
+border-radius: 3px;
+margin-top: 10px;
+}
+
+.progress-bar {
+height: 100%;
+background-color: #76c7c0;
+border-radius: 5px;
+width: 0;
+padding:2px;
+}
+
+
+
+.taskDiv {
+padding: 10px;
+align-items: center;
+justify-content: center;
+}
+
+.task-title {
+font-weight: bold;
+margin-top: 20px;
+}
+
+ul,
+ol {
+list-style: none;
+padding-left: 10px;
+}
+
+
+input[type="checkbox"] {
+margin-right: 10px;
+}
+
+.add-task,
+.add-subtask {
+margin: 10px 0;
+}
+
+.add-subtask {
+margin-left: 20px;
+}
+
+.add-btn,
+.edit-btn,
+.delete-btn {
+margin-left: 5px;
+}
+
+
+
+
+
+.todo-list {
+max-width: 900px;
+margin: 0 auto;
+background: #212121;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+}
+
+
+
+.toolBar,
+.add-task {
+display: flex;
+align-items: center;
+border: 1px solid #ccc;
+box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+justify-content: space-between;
+padding: 5px;
+margin-top: 5px;
+}
+
+input,
+button {
+outline: none;
+border: none;
+}
+
+.btn-add:active,
+.btn-edit:active,
+.btn-delete:active,
+.btn-search:active {
+background-color: lightslategray;
+color: aliceblue;
+}
+
+input:focus {
+outline: none;
+border: none;
+background-color: azure;
+color: #010101;
+}
+
+.input-edit,
+.input-task,
+.input-search {
+background-color: rgba(255, 255, 255, 0.1);
+color: white;
+padding: 10px;
+border-radius: 3px;
+height: 35px;
+width: calc(100% - 20px);
+box-sizing: border-box;
+}
+
+/* Estilização dos botões */
+.btn-add,
+.btn-edit,
+.btn-delete,
+.btn-search {
+background-color: rgba(255, 255, 255, 0.1);
+
+color: white;
+border-radius: 5px;
+cursor: pointer;
+padding: 10px;
+margin-left: 5px;
+}
+
+/* Efeito hover nos botões */
+.btn-add:hover,
+.btn-edit:hover,
+.btn-delete:hover,
+.btn-search:hover {
+background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+/* Lista de tarefas */
+.task-list {
+margin-top: 20px;
+}
+
+/* Estilização dos itens de tarefa */
+.task-item {
+display: flex;
+justify-content: space-between;
+background-color: rgba(255, 255, 255, 0.3);
+
+color: white;
+padding: 10px;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+.hidden {
+display: block;
+}
+
+.task-description {
+border: none;
+width: calc(100% - 15px);
+height: 60px;
+padding: 10px;
+color: #24242424;
+margin: 5px;
+}
+
+input[type="checkbox"] {
+margin-right: 10px;
+}
